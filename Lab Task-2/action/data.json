@@ -1,0 +1,12 @@
+[
+        {
+        "firstname": "Imagetest",
+        "lastttname": "testingman",
+        "age": "22",
+        "designation": "Senior Programmer",
+        "language": "PHP",
+        "email": "testingman@email.com",
+        "password": "12345678",
+        "image": "D:\\xampp\\tmp\\phpC934.tmp"
+    }
+]
