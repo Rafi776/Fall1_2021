@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <title>FTTask1</title>
+  </head>
+  <body>
+    <div class="header">
+      <h1>ABC Management System</h1>
+      <h3>We create Future</h1>
+    </div>
+    <div class="topnav">
+      <a href="#">Home</a>
+      <a href="#">About Us</a>
+      <a href="#">Shop</a>
+    </div>
+    <div class="title">
+      <h1>Registration Form</h1>
+    </div>
+    <hr />
+    <div class="content">
+      <form method="post">
+        <div class="row">
+          <div class="col-25">
+            <label for="first_name">First Name:</label>
+          </div>
+          <div class="col-75">
+            <input type="text" name="first_name" /><br />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="last_name">Last Name:</label>
+          </div>
+          <div class="col-75">
+            <input type="text" name="last_name" /><br />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="age">Age:</label>
+          </div>
+          <div class="col-75">
+            <input type="text" name="age" /><br />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="designation">Designation:</label>
+          </div>
+          <div class="col-75">
+            <input type="radio" name="designation" value="Junior Programmer" />junior
+            programmer
+            <input type="radio" name="designation" value="Senior Programmer" />Senior
+            programmer
+            <input type="radio" name="designation" value="Project Lead" />Project lead
+            <br />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="language">Preferred language:</label>
+          </div>
+          <div class="col-75">
+            <input type="checkbox" name="language" value="JAVA" />JAVA
+            <input type="checkbox" name="language" value="PHP" />PHP
+            <input type="checkbox" name="language" value="C++" />C++
+             <br />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="email">E-mail: </label>
+          </div>
+          <div class="col-75">
+            <input type="text" name="email" /><br />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="password">Password: </label>
+          </div>
+          <div class="col-75">
+            <input type="password" name="password" /><br />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="up_file">Please choose a file</label>
+          </div>
+          <div class="col-75">
+            <input type="file" name="up_file" /><br />
+          </div>
+        </div>
+      <div class="row">
+        <input type="submit" name="submit" value="Submit" />
+        <input type="reset" name="reset" value="Reset" />
+      </div>
+      </form>
+    </div>  
+  </body>
+</html>
